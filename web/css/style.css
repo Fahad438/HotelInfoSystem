@@ -1,0 +1,602 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+
+}
+
+body {
+
+    background: #d9e2ec;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f0f4f8;
+}
+
+h1 span {
+    color: #27ab83;
+}
+
+h2 {
+    color: #243b53;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #2b4561;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    width: 40%;
+    margin-bottom: 20px;
+    color: #d5d5d5;
+}
+
+p {
+    font-size: 16px;
+    color: #345375;
+
+}
+
+/* Nav Section */
+.nav-container {
+    background: white;
+    color: #f0f4f8;
+}
+
+.nav {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+    font-size: 16px;
+}
+
+.nav .logo {
+
+    font-weight: bold;
+    flex: 3;
+    color: #1d3557;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex: 1.5;
+}
+
+.nav ul li a {
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+.nav ul li a:hover {
+    color: #27ab83;
+}
+
+/* end Nav Section */
+
+
+
+/* Hero Section */
+
+.hero {
+    height: 90vh;
+    position: relative;
+}
+
+.hero {
+
+
+    background-image: linear-gradient(90deg,
+        rgba(51, 78, 104, 0.2) 0%,
+        rgba(20, 63, 92, 0.8) 20%),
+        url("../images/nav.jpg");
+
+
+    background-position: center;
+}
+
+.content {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.75rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #243b53;
+    background: #27ab83;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #239673;
+}
+
+/* end Hero Section */
+
+
+/* services Section */
+#services {
+    width: 90%;
+    max-width: 1366px;
+    margin: 4rem auto;
+    height: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 5rem;
+}
+
+.service {
+    border-radius: 10px;
+    background: #bcccdc;
+    padding: 4rem 0;
+    width: 30%;
+}
+
+.service p {
+    text-align: center;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: #1d3557;
+    font-size: 2.4rem;
+    margin-left: 1rem;
+    opacity: 0.7;
+}
+
+/* end services Section */
+
+/* start About us */
+
+.about-container {
+    background: #1d3557;
+}
+
+.about-us {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.about-us .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2 {
+    color: #d9d9d9;
+}
+
+.about-content p {
+    margin-top: 1rem;
+    width: 80%;
+    color: #d5d5d5;
+}
+
+/* end About us */
+
+
+/* start Footer */
+footer {
+    background: #1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+footer p {
+    color: #d9d9d9;
+}
+
+/* end Footer */
+
+
+/* start imge */
+
+.imge {
+    width: 100%;
+    max-width: 1366px;
+    margin: 4rem auto;
+    height: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.imge h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.imge img {
+
+    width: 30%;
+
+    height: 100%;
+
+
+}
+
+/* end start imge */
+
+
+/* start add  */
+.Add {
+    width: 50%;
+    max-width: 1366px;
+    margin: 5rem auto 0 auto;
+    height: 100%;
+    padding: 2rem 0;
+
+
+}
+
+
+
+
+
+.Add h1 {
+    color: black;
+    text-align: center;
+}
+
+.form label {
+    font-size: 20px;
+
+}
+
+.btnn {
+    margin-top: 20px;
+
+}
+
+.form input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.message {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.btnsub{
+    cursor: pointer;
+}
+
+
+
+
+.error {
+
+    color: red;
+    margin-left: 10px;
+    display: none;
+}
+.erro{
+    color: red
+}
+
+/* end add room */
+
+/*start after add */
+.add-correct{
+
+    height: 870px
+}
+
+.correct{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color: green;
+    padding-bottom: 50px;
+
+
+
+}
+.wrong-masg{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: red;
+    padding-bottom: 50px;
+
+}
+.center {
+
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.correct-feedback{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 40px;
+   
+}
+ /*end after add */
+
+/*start table*/
+
+.table-con{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.table{
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table  th {
+    background-color: #1d3557;
+    color: #ffffff;
+    text-align: left;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+
+.table  tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table  tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+/*end table*/
+
+/*Start Loign*/
+
+  
+.center2{
+    margin-top: 150px;
+    margin-bottom: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  }
+  .center2 h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    color: black;
+  }
+  .center2 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .loginpage .txt_field{
+   
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field label{
+   
+    color: #adadad;
+   
+    font-size: 16px;
+  
+  }
+ 
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  .pass:hover{
+    text-decoration: underline;
+  }
+  .btnLogin{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+ .btnLogin :hover{
+    border-color: #2691d9;
+    transition: .5s;
+  }
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+  
+
+
+
+/* start Responsive Design */
+
+@media (max-width: 1400px) {
+    .hero .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero h4 {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1042px) {
+    html {
+        font-size: 10px;
+    }
+
+    .nav ul {
+
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        margin: 0.5rem 0;
+        margin-left: 70px;
+    }
+
+    .services-container {
+        flex-wrap: wrap;
+    }
+
+    .service {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    html {
+        font-size: 8px;
+    }
+
+    .error {
+        font-weight: bold;
+        color: red;
+        font-size: 15px;
+        display: none;
+
+    }
+
+    .about-us img {
+        display: none;
+    }
+
+    .about-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    input,
+    textarea {
+        width: 40%;
+    }
+}
+/* end Responsive Design */

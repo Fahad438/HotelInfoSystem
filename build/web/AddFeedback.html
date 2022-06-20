@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Hotel">
+        <meta name="keywords" content="Hotel,hotel,Best Hotel,holiday,the summer,Summer,5-star hotel">
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script src="script/site.js"></script>
+
+        <title>Feedback</title>
+    </head>
+
+    <body>
+
+
+
+
+        <div class="container">
+            <!--start navg-->
+            <div class="nav-container">
+                <div class="nav">
+                    <h3 class="logo">Makkah Hotel</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Regsiter</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="http://localhost:8080/HISystem/Feedback">Feedback</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--end navg-->
+
+            <!--start Add Feedback-->
+            <div class="Add">
+                <h1>FeedBack</h1>
+                <div class="form">
+                    <form action="AddFeedback" method="post" onsubmit=" return validatefeedback()">
+                        <div>
+                            <label for="">
+                                Name: <span class="erro">*</span> <span class="error" id="errname"></span>
+                                <input type="text" placeholder="Enter you are name" name="name" id="name">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="">
+                                Phone <span class="erro">*</span> <span class="error" id="errphone"></span>
+                                <input type="text" name="phone" id="phone" placeholder="Enter you are Number Phone">
+
+                            </label>
+                        </div>
+                        <div>
+                            <label for="">
+                                Email <span class="erro">*</span> <span class="error" id="erremail"></span>
+                                <input id="email" name="email" type="text" placeholder="Enter you are email">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="">
+                                Subject <span class="error" id="errsubject"></span>
+                                <input name="Subject" id="Subject" type="text" placeholder="Enter you are Subject">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="">
+                                <div>
+                                    Type  <span class="erro">*</span><span class="error" id="errtype"></span>
+                                </div>
+                                <select  id="Type"  name="Type">
+
+                                    <option> Please select your type... </option>
+                                    <option >complaint</option>
+                                    <option >recovery</option>
+                                    <option >Suggestion</option>
+                                    <option>other</option>
+                                </select>
+                            </label>
+                        </div>
+
+
+                        <label for="">
+                            Message:<span class="erro">*</span> <span class="error" id="errmesage"></span>
+
+                            <textarea class="message" name="message" id="message" placeholder="Enter feedback here"></textarea>
+
+                        </label>
+                        <input type="submit" value="Submit" class="btnsub">
+
+
+
+
+                    </form>
+
+                </div>
+
+            </div>
+            <!--end Add Feedback-->
+
+            <!--start footer-->
+            <footer>
+                <p> 
+                    Copyright &copy; All Right Reserved To Makkah Hotel
+                </p>
+            </footer>
+            <!--end footer-->
+        </div>
+    </body>
+
+</html>

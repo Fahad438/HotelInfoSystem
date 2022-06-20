@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Hotel">
+        <meta name="keywords" content="Hotel,hotel,Best Hotel,holiday,the summer,Summer,5-star hotel">
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script src="script/site.js"></script>
+
+        <title>Login</title>
+    </head>
+
+    <body>
+
+
+
+
+        <div class="container">
+            <!--start navg-->
+            <div class="nav-container">
+                <div class="nav">
+                    <h3 class="logo">Makkah Hotel</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Regsiter</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="http://localhost:8080/HISystem/Feedback">Feedback</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--end navg-->
+
+            <div class="center2">
+            <h1>Sign in</h1>
+            <form action="Login" class="loginpage" method="post" onsubmit=" return validateLogin()">
+
+                <div class="txt_field">
+                    <label>Username:<span class="error" id="userError"></span>
+                        <input type="text" id="username" name="username" >
+                    </label>
+                </div>
+                <div class="txt_field">
+                    <label>Password:<span class="error" id="passEror"></span>
+                        <input type="password" id="password" name="password" >
+                    </label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input class="btnLogin" type="submit" value="Login">
+                <div class="signup_link">
+                    Not a member? <a href="register.html">Signup</a>
+                </div>
+            </form>
+        </div>
+            <!--end Add Feedback-->
+
+            <!--start footer-->
+            <footer>
+                <p> 
+                    Copyright &copy; All Right Reserved To Makkah Hotel
+                </p>
+            </footer>
+            <!--end footer-->
+        </div>
+    </body>
+
+</html>
